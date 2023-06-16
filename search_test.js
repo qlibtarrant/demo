@@ -1,6 +1,6 @@
 Feature('search');
 
-Scenario('test something',  ({ I }) => {
+Scenario('Testing the google homepage',  ({ I }) => {
     I.amOnPage('https://www.google.com');
-    I.see('Google');
+    I.see('About');
 });

@@ -12,7 +12,7 @@ exports.config = {
   output: './output',
   helpers: {
     Playwright: {
-      url: 'https://www.google.com',
+      url: 'http://the-internet.herokuapp.com',
       show: true,
       browser: 'chromium'
     }

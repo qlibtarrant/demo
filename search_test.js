@@ -1,9 +1,6 @@
 Feature('search');
 
-Scenario('Testing the google homepage',  ({ I }) => {
-    I.amOnPage('https://www.google.com');
-    I.see('About');
-    I.see('Store');
-    I.see('GmailImages');
-    I.see('Terms');
+Scenario('Testing Automation Demo',  ({ I }) => {
+    I.amOnPage('http://the-internet.herokuapp.com');
+    I.see('Welcome to the-internet');
 });
